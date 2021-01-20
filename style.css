@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.4rem;
+  width: 4rem;
+  background: rgb(0, 0, 0);
+  color: gold;
+  font-size: 1rem;
+}
+
+.character {
+  -webkit-animation: halo-abw-appearance 1000ms linear forwards;
+  animation: halo-abw-appearance 1000ms linear forwards;
+  transform: scale(0.25);
+}
+
+@keyframes halo-abw-appearance {
+  0% {
+    transform: scale(0.25);
+  }
+
+  100% {
+    transform: scale(0.5);
+  }
+}
